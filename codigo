@@ -1,13 +1,14 @@
-int main (){
-  int a=28, int b=0;
-  for (int i=1; i<=a/2;i++) {
-    if (a%i==1){
-      b=b+1;
+ int main (){
+  int a = 28, b = 0;
+  for (int i = 1; i <= a/2; i++) {
+    if (a % i==0) {
+      b = b + i;
     }
   }
-  if (b==a){
-  printf ("\nEl nombre %d és perfecte", b);
-  } else {
-  printf ("\nEl nombre %d no és perfecte", b);
+  if (a == b){
+  printf ("El nombre %d és perfecte", a);
+  }
+  else {
+  printf ("El nombre %d no és perfecte", a);
   }
 }
